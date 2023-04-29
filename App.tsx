@@ -88,10 +88,10 @@ function App(): JSX.Element {
           number of Columns : {numColumns}
         </Text>
         <TouchableOpacity onPress={() => onIncNumCount()}>
-          <Text style={{fontWeight: 'bold', fontSize: 20}}>+</Text>
+          <Text style={{fontWeight: 'bold', fontSize: 20}}>Inc +</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => onDecNumCount()}>
-          <Text style={{fontWeight: 'bold', fontSize: 20}}>-</Text>
+          <Text style={{fontWeight: 'bold', fontSize: 20}}>Dec -</Text>
         </TouchableOpacity>
       </View>
       <ScrollView style={{margin: 10, padding: 10, flex: 1}}>
